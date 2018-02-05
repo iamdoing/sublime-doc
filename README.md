@@ -1,1 +1,1 @@
-# sublime-doc
+# This is a doc for how to use sublime-text 3
