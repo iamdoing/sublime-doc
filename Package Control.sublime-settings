@@ -1,0 +1,20 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AutoFileName",
+		"Babel",
+		"Codecs33",
+		"Color Highlighter",
+		"ConvertToUTF8",
+		"Emmet",
+		"GBK Support",
+		"HTML-CSS-JS Prettify",
+		"Package Control",
+		"SideBarEnhancements",
+		"SyncedSideBar"
+	]
+}

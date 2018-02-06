@@ -14,9 +14,8 @@ This is a document for how to use sublime-text 3
 
 ## 3.常用快捷键
 	3.1 在命令面板(Shift+Cmd+p)中模糊输入来查看快捷键 
-	3.2 操作编辑选择
+	3.2 操作/编辑/选择
 		Cmd+n 开一个新页面
-		Ctrl+tab 切换页面
 		Cmd+d 选中当前单词，继续敲可以选中多个
 		Cmd+/ 注释掉/取消注释
 		Ctrl+ ]/[ 缩进
@@ -24,13 +23,13 @@ This is a document for how to use sublime-text 3
 		Shift+Cmd+d 复制当前行
 		Ctrl+z 撤销
 		多点选择,按住 Cmd 键,点击鼠标左键
-		列选择，按住 Option 键，用鼠标左键拖动
+		列选择，按住 Alt 键，用鼠标左键拖动
 	3.3 光标移到
 		方向键,一次移动一个字符
 		Alt+方向键,一次移动一个单词
 		Cmd+方向键,一次移动一行
 
-## 4.文件打开跳转
+## 4.文件打开与跳转
 	4.1 Cmd+p 模糊输入文件名打开文件
 	4.2 Cmd+- 跳转到打开文件前所在的文件
 	4.3 Shift+Cmd+- 文件跳转过了回跳
@@ -87,6 +86,6 @@ This is a document for how to use sublime-text 3
 
 ## 10.管理自己的配置
 	10.1 将User目录下的文件推送到github上
-	10.2 如果新安装Sublime,可以从github上把文件clone下来放到User目录刘
-	10.3 安装packagecontrol,这样所有的包会自动安装上
+	10.2 如果新安装Sublime,可以从github上把文件clone下来放到User目录下
+	10.3 安装PackageControl,这样所有的包会自动安装上
 	

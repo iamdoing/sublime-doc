@@ -1,0 +1,10 @@
+[
+// 习惯command+b默认Chrome
+  { "keys": ["command+b"], "command": "side_bar_files_open_with",
+    "args": {
+      "paths": [],
+      "application": "/Applications/Google Chrome.app",
+      "extensions":".*"
+    }
+  },
+]
