@@ -52,14 +52,14 @@ This is a document for how to use sublime-text 3
 	5.1 查找精确的命令名
 		5.1.1 Ctrl + `(反引号)打开控制台
   		5.1.2 在控制台中输入 sublime.log_commands(True)
-  	5.1.3 再次执行操作,在控制台中就可以看到精确的命令名  
+  		5.1.3 再次执行操作,在控制台中就可以看到精确的命令名  
 	5.2 打开Key Bindings中的User配置(对应User目录下的Default (OSX).sublime-keymap 文件)
 	5.3 复制一条配置,更改键和对应的命令名,如果是首次打开,可以从Default配置中拷贝一条配置然后修改
 
 ## 6.自定义配置
 	6.1 打开Settings中的User配置(对应User目录下的Preferences.sublime-settings 文件)
 	6.2 添加或者修改相关的配置,比如,Sublime默认是不显示行号的,如果想显示行号,可以添加
-"highlight_line": true,
+	"highlight_line": true,
 
 ## 7.包管理
 
