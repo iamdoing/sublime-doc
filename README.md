@@ -1,7 +1,4 @@
----
-layout:default
-title:This is a document for how to use sublime-text 3
----
+This is a document for how to use sublime-text 3
 
 ## 1.为什么用sublime?
 	1.1 简单好用
@@ -16,22 +13,22 @@ title:This is a document for how to use sublime-text 3
 	https://www.sublimetext.com/
 
 ## 3.常用快捷键
-3.1 在命令面板(Shift+Cmd+p)中模糊输入来查看快捷键 
-3.2 操作编辑选择
-	Cmd+n 开一个新页面
-	Ctrl+tab 切换页面
-	Cmd+d 选中当前单词，继续敲可以选中多个
-	Cmd+/ 注释掉/取消注释
-	Ctrl+ ]/[ 缩进
-	Ctrl+l 选择当前行
-	Shift+Cmd+d 复制当前行
-	Ctrl+z 撤销
-	多点选择,按住 Cmd 键,点击鼠标左键
-	列选择，按住 Option 键，用鼠标左键拖动
-3.3 光标移到
-	方向键,一次移动一个字符
-	Alt+方向键,一次移动一个单词
-	Cmd+方向键,一次移动一行
+	3.1 在命令面板(Shift+Cmd+p)中模糊输入来查看快捷键 
+	3.2 操作编辑选择
+		Cmd+n 开一个新页面
+		Ctrl+tab 切换页面
+		Cmd+d 选中当前单词，继续敲可以选中多个
+		Cmd+/ 注释掉/取消注释
+		Ctrl+ ]/[ 缩进
+		Ctrl+l 选择当前行
+		Shift+Cmd+d 复制当前行
+		Ctrl+z 撤销
+		多点选择,按住 Cmd 键,点击鼠标左键
+		列选择，按住 Option 键，用鼠标左键拖动
+	3.3 光标移到
+		方向键,一次移动一个字符
+		Alt+方向键,一次移动一个单词
+		Cmd+方向键,一次移动一行
 
 ## 4.文件打开跳转
 	4.1 Cmd+p 模糊输入文件名打开文件
