@@ -7,7 +7,7 @@ This is a document for how to use sublime-text 3
 	1.4 深度可定制
 	1.5 快速切换文件 Cmd+p
 	1.5 好用的命令执行面板 Shift+Cmd+p
-	1.6 标准
+	1.6 社区活跃 
 
 ## 2.安装
 	https://www.sublimetext.com/
