@@ -89,5 +89,5 @@ This is a document for how to use sublime-text 3
 ## 12.管理自己的配置
 1. 将 用户自定义目录 下的配置文件文件推送到github上
 2. 如果新安装Sublime,可以从github上把文件clone下来放到 用户自定义目录 下
-3. 安装PackageControl,这样所有的包会自动安装上,所有的配置也回生效
+3. 安装PackageControl,这样所有的包会自动安装上,所有的配置也会生效
 	
