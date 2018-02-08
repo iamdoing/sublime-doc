@@ -10,8 +10,9 @@ This is a document for how to use sublime-text 3
 7. 社区活跃 
 
 ## 2.安装
-参考 <https://www.sublimetext.com/>
-
+- 参考 <https://www.sublimetext.com/>
+- Windows用户注意操作系统类型(64位还是32位)
+ 
 ## 3.常用快捷键
 1. 在命令面板(Shift+Cmd+p)中模糊输入来查看快捷键 
 2. 操作/编辑/选择
@@ -28,19 +29,18 @@ This is a document for how to use sublime-text 3
 	- 方向键,一次移动一个字符
 	- Alt+方向键,一次移动一个单词
 	- Cmd+方向键,一次移动一行
+4. 文件打开与跳转
+	- Cmd+p 模糊输入文件名打开文件
+	- Cmd+- 跳转到打开文件前所在的文件
+	- Shift+Cmd+- 文件跳转过了回跳
+	- Ctrl+Tab 打开的多个文件之间跳转
 
-## 4.文件打开与跳转
-1. Cmd+p 模糊输入文件名打开文件
-2. Cmd+- 跳转到打开文件前所在的文件
-3. Shift+Cmd+- 文件跳转过了回跳
-4. Ctrl+Tab 打开的多个文件之间跳转
+5. 文件的搜索
+	- Cmd+f 搜索当前文件 Enter查找下一个 Shift+Enter查找上一个
+	- Alt+Cmd+f 搜索替换
+	- Shift+Cmd+f 文件夹中查找替换
 
-## 5.文件的搜索
-1. Cmd+f 搜索当前文件 Enter查找下一个 Shift+Enter查找上一个
-2. Alt+Cmd+f 搜索替换
-3. Shift+Cmd+f 文件夹中查找替换
-
-## 6.用户数据目录
+## 4.用户数据目录
 1. 用户的都数据都放在一个固定的目录,操作系统不同,目录的路径也不同
 2. 以我自己的Mac为例,所有的用户数据都存放在/Users/air/Library/Application Support/Sublime Text 3/目录中,以下简称用户数据目录
 3. 用户自定义的相关文件存放在 用户数据目录/Packages/User/ 目录下,以下简称用户自定义目录
@@ -49,7 +49,7 @@ This is a document for how to use sublime-text 3
 	- User是用户自定义的文件,优先级高于Default,用户可以根据爱好配置
 5. 如果想把自己的sublime恢复到初始状态,可以删除整个用户数据目录,建议删除前备份该目录
 	
-## 7.自定义快捷键
+## 5.自定义快捷键
 1. 查找精确的命令名
 	- Ctrl + \`(反引号)打开控制台
 	- 在控制台中输入 sublime.log_commands(True)
@@ -57,12 +57,12 @@ This is a document for how to use sublime-text 3
 2. 打开Key Bindings中的User配置(对应 用户自定义目录 下的Default (OSX).sublime-keymap 文件)
 3. 复制一条配置,更改键和对应的命令名,如果是首次打开,可以从Default配置中拷贝一条配置然后修改
 
-## 8.自定义配置
+## 6.自定义配置
 1. 打开Settings中的User配置(对应 用户自定义目录 下的Preferences.sublime-settings 文件)
 2. 添加或者修改相关的配置,比如,Sublime默认是不显示行号的,如果想显示行号,可以添加
 "highlight_line": true,
 
-## 9.包管理
+## 7.包管理
 1. 在Mac系统中,Sublime自带默认的包安装在 /Applications/Sublime Text.app/Contents/MacOS/Packages 中
 2. 可以通过安装PackageControl来安装和管理包,安装方法参考 <https://packagecontrol.io/>
 3. 安装完成后,可以在命令面板(Shift+Cmd+p)中输入Install Package来打开包安装面板
@@ -73,20 +73,20 @@ This is a document for how to use sublime-text 3
 	- 有的包还会在 用户数据目录/Packages/ 下或者 用户自定义目录 下生成相关的文件
 6. 如果想删除某个包,在命令面板中输入Remove Package打开卸载面板直接输入需要删除的包名就可以了
 
-## 10.常用包介绍
+## 8.常用包介绍
 1. emmet html/css代码补全
 	- 参考 <https://docs.emmet.io/cheat-sheet/>
 2. SyncedSideBar 在侧边栏中同步展开当前打开的文件 
 3. AutoFileName 自动补全文件名
 4. Color Highlighter css颜色显示
 
-## 11.自定义代码段 Snippets
+## 9.自定义代码段 Snippets
 1. Tools->Developer->New Snippet 新建一个Snippet
 2. 修改snippet 内容(content)/触发词(tabTrigger)/作用范围(scope) 
 3. 打开相关的文件,用快捷键 Alt+Cmd+p 可以查看该文件所在的作用范围
 4. 保存文件到 用户自定义目录 下, 以 .sublime-snippet结尾 
 
-## 12.管理自己的配置
+## 10.管理自己的配置
 1. 将 用户自定义目录 下的配置文件文件推送到github上
 2. 如果新安装Sublime,可以从github上把文件clone下来放到 用户自定义目录 下
 3. 安装PackageControl,这样所有的包会自动安装上,所有的配置也会生效
