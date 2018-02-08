@@ -13,9 +13,15 @@ This is a document for how to use sublime-text 3
 - 参考 <https://www.sublimetext.com/>
 - Windows用户注意操作系统类型(64位还是32位)
  
-## 3.常用快捷键
-1. 在命令面板(Shift+Cmd+p)中模糊输入来查看快捷键 
-2. 操作/编辑/选择
+## 3.常用操作
+1. sublime的打开
+	- 直接双击图标
+	- 通过Spotlight呼出
+	- 通过命令行调出
+
+2. 在命令面板(Shift+Cmd+p)中模糊输入来查看快捷键 
+
+3. 操作/编辑/选择
 	- Cmd+n 开一个新页面
 	- Cmd+d 选中当前单词，继续敲可以选中多个
 	- Cmd+/ 注释掉/取消注释
@@ -25,17 +31,17 @@ This is a document for how to use sublime-text 3
 	- Ctrl+z 撤销
 	- 多点选择,按住 Cmd 键,点击鼠标左键
 	- 列选择，按住 Alt 键，用鼠标左键拖动
-3. 光标移到
+4. 光标移到
 	- 方向键,一次移动一个字符
 	- Alt+方向键,一次移动一个单词
 	- Cmd+方向键,一次移动一行
-4. 文件打开与跳转
+5. 文件打开与跳转
 	- Cmd+p 模糊输入文件名打开文件
 	- Cmd+- 跳转到打开文件前所在的文件
 	- Shift+Cmd+- 文件跳转过了回跳
 	- Ctrl+Tab 打开的多个文件之间跳转
 
-5. 文件的搜索
+6. 文件的搜索
 	- Cmd+f 搜索当前文件 Enter查找下一个 Shift+Enter查找上一个
 	- Alt+Cmd+f 搜索替换
 	- Shift+Cmd+f 文件夹中查找替换
