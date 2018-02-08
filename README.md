@@ -32,7 +32,7 @@ This is a document for how to use sublime-text 3
 		- 文件名:行号
 		- 文件名@标志(函数名之类的)
 		- 文件名#搜索关键字
-		
+		- 目录名 文件名
 	- Ctrl+- 跳转到打开文件前所在的文件
 	- Shift+Ctrl+- 文件跳转过了回跳
 	- Ctrl+Tab 打开的多个文件之间跳转
