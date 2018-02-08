@@ -28,9 +28,13 @@ This is a document for how to use sublime-text 3
 	- Cmd+o 打开文件
 	- Cmd+n 新建文件
 	- Cmd+s 保存文件
-	- Cmd+p 模糊输入文件名打开文件
-	- Cmd+- 跳转到打开文件前所在的文件
-	- Shift+Cmd+- 文件跳转过了回跳
+	- Cmd+p 模糊输入文件名打开文件,支持以下几种形式
+		- 文件名:行号
+		- 文件名@标志(函数名之类的)
+		- 文件名#搜索关键字
+		
+	- Ctrl+- 跳转到打开文件前所在的文件
+	- Shift+Ctrl+- 文件跳转过了回跳
 	- Ctrl+Tab 打开的多个文件之间跳转
 
 4. 文件搜索
