@@ -41,6 +41,7 @@ This is a document for how to use sublime-text 3
 	- Cmd+f 搜索当前文件 Enter查找下一个 Shift+Enter查找上一个
 	- Alt+Cmd+f 搜索替换
 	- Shift+Cmd+f 文件夹中查找替换
+	- 鼠标悬停会在 类/函数/方法的上会出现其定义的链接
 
 5. 选择
 	- 多点选择,按住 Cmd 键,点击鼠标左键
