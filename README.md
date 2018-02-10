@@ -60,11 +60,11 @@ This is a document for how to use sublime-text 3
 	- Ctrl+l 选择当前行
 	- Shift+Cmd+d 复制当前行
 	- Ctrl+z 撤销
-
-
-
+	
 ## 4.用户数据目录
-1. 用户的都数据都放在一个固定的目录,操作系统不同,目录的路径也不同
+1. 用户的数据都放在一个固定的目录,操作系统不同,目录的路径也不同,一般情况下参考以下目录
+	- OS X: ~/Library/Application Support/Sublime Text 3
+	- Windows: %APPDATA%\Roaming\Sublime Text 3
 2. 以我自己的Mac为例,所有的用户数据都存放在/Users/air/Library/Application Support/Sublime Text 3/目录中,以下简称用户数据目录
 3. 用户自定义的相关文件存放在 用户数据目录/Packages/User/ 目录下,以下简称用户自定义目录
 4. 自定义的内容一般分为Default和User
