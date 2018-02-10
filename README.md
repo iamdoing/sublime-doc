@@ -100,8 +100,6 @@ This is a document for how to use sublime-text 3
 1. emmet html/css代码补全
 	- 参考 <https://docs.emmet.io/cheat-sheet/>
 2. SyncedSideBar 在侧边栏中同步展开当前打开的文件 
-3. AutoFileName 自动补全文件名
-4. Color Highlighter css颜色显示
 
 ## 9.自定义代码段 Snippets
 1. Tools->Developer->New Snippet 新建一个Snippet
