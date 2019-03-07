@@ -1,0 +1,36 @@
+<snippet>
+	<content><![CDATA[
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}			
+	</style>
+</head>
+<body>
+	<div id="app">
+	</div>
+</body>
+<script src="js/vue.js"></script>
+<script>
+	let app = new Vue({
+		el:"#app",
+		data:{
+
+		},
+		methods:{
+		}
+	})
+</script>
+</html>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>vue</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html.basic</scope>
+</snippet>

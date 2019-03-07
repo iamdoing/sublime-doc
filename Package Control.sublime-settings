@@ -10,14 +10,20 @@
 		"Codecs33",
 		"Color Highlighter",
 		"ConvertToUTF8",
+		"DocBlockr",
 		"Emmet",
+		"FileHeader",
 		"GBK Support",
 		"HTML-CSS-JS Prettify",
-		"Markdown Preview",
+		"LESS",
 		"MarkdownEditing",
+		"MarkdownPreview",
 		"OmniMarkupPreviewer",
 		"Package Control",
+		"Pretty JSON",
 		"SideBarEnhancements",
-		"SyncedSideBar"
+		"SublimeServer",
+		"SyncedSideBar",
+		"Vue Syntax Highlight"
 	]
 }
